@@ -53,6 +53,22 @@ code: pip install opencv-python pillow pytesseract numpy
 
 ---
 
+## Example Output
+
+### Input:
+- **Keyword**: `Mark`
+- **ZIP File**: `images.zip`
+
+### Output:
+When searching for the keyword `Mark`, the program detects relevant pages and displays a contact sheet of faces found within those pages. Here's an example of what the output looks like:
+
+![Example Output](Screenshot 2024-11-20 at 18.48.11.png)
+
+> Note: The actual contact sheet will vary depending on the images in your `images.zip` file and the detected faces.
+
+---
+
+
 ## Code Workflow
 1. Extract ZIP File: The extract_zip function unpacks the ZIP file into a specified directory.
 2. Read Text from Images: The read_text_from_files function uses Tesseract OCR to extract text content.
