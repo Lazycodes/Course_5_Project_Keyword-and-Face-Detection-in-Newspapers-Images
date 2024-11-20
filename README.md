@@ -62,7 +62,8 @@ code: pip install opencv-python pillow pytesseract numpy
 ### Output:
 When searching for the keyword `Mark`, the program detects relevant pages and displays a contact sheet of faces found within those pages. Here's an example of what the output looks like:
 
-![Example Output](Screenshot 2024-11-20 at 18.48.11.png)
+![Example Output]([Screenshot 2024-11-20 at 18.48.11.png](https://github.com/Lazycodes/Lazycodes-Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images/blob/main/Screenshot%202024-11-20%20at%2018.48.11.png))
+![Example Output](https://github.com/Lazycodes/Lazycodes-Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images/blob/main/Screenshot%202024-11-20%20at%2018.48.33.png)
 
 > Note: The actual contact sheet will vary depending on the images in your `images.zip` file and the detected faces.
 
