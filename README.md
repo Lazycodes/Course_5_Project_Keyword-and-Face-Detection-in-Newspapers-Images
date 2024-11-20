@@ -20,11 +20,58 @@ This project showcases Python's capabilities in text and image processing using 
 
 ---
 
+## Dependencies
+Before running the project, ensure you have the following installed:
+1. Python Libraries
+   - Open_cv
+   - Pillow
+   - Py-tesseract
+   - NumPy
+
+Install the required libraries using pip:
+code: pip install opencv-python pillow pytesseract numpy
+
 ## File Structure
 ### Scripts
-<a href="https://github.com/Lazycodes/Course-5-Final-Project/blob/main/code.ipynb">Code.ipynb</a>: Contains the Python code for processing images, detecting keywords, and creating contact sheets.
+<a href="https://github.com/Lazycodes/Lazycodes-Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images/blob/main/Code.ipynb">Code.ipynb</a>: Contains the Python code for processing images, detecting keywords, and creating contact sheets.
+
 ### Data Files
 1. images.zip: The ZIP file containing newspaper images is not included in the repository due to space constraints. To run the project, you need to:
     1. Obtain the images.zip file from the project source or generate your own test images.
     2. Place the file in the root directory of this project.
-2. output_directory/: This directory is used to store the extracted images. It is automatically created when the code runs and does not need to be manually included.
+2. output_directory/: This directory stores the extracted images. It is automatically created when the code runs and does not need to be manually included.
+
+---
+
+## How to Run
+1. Place your ZIP file of newspaper images (e.g., images.zip) in the project directory.
+2. Run the script with a keyword, specifying the ZIP file and output directory:
+   code: ready_contact_sheet("pizza", "output_directory", "/path/to/images.zip")
+3. View the results in the console or Jupyter Notebook:
+ - Messages will indicate where results were found.
+ - Contact sheets will display faces detected on relevant pages.
+
+---
+
+## Code Workflow
+1. Extract ZIP File: The extract_zip function unpacks the ZIP file into a specified directory.
+2. Read Text from Images: The read_text_from_files function uses Tesseract OCR to extract text content.
+3. Detect Faces: The rec_faces function uses OpenCV's Haar cascade classifier to detect faces.
+4. Generate Contact Sheet: The ready_contact_sheet function creates a visual grid of detected faces for pages containing the keyword.
+
+---
+
+## Future Improvements
+- Add support for multiple languages using Tesseract's language models.
+- Implement faster face detection methods (e.g., deep learning models).
+- Optimize handling for large datasets to improve processing speed.
+
+---
+
+## Acknowledgments
+- Special thanks to the University of Michigan's Python for Everybody course for providing the final project shown in this repository.
+- Tesseract OCR: Open-source OCR engine used for text extraction.
+- OpenCV: Library for computer vision and image processing tasks.
+- Pillow: Python Imaging Library fork for image manipulation.
+
+
