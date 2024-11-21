@@ -29,14 +29,12 @@ Before running the project, ensure you have the following installed:
    - NumPy
      
 Clone the repository  
-
 -code: git clone https://github.com/Lazycodes/Lazycodes-Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images.git
-Navigate to the project directory  
 
+Navigate to the project directory  
 -code: cd keyword-face-detection
 
-Install the required libraries using pip:
----
+Install the required libraries using pip:  
 -code: pip install opencv-python pillow pytesseract numpy
 
 ## File Structure
