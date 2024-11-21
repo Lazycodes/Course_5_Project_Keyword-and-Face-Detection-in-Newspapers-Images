@@ -28,8 +28,7 @@ Before running the project, ensure you have the following installed:
    - Py-tesseract
    - NumPy
 
-Clone the repository
----
+Clone the repository /n
 -code: git clone https://github.com/yourusername/keyword-face-detection.git
 ---
 Navigate to the project directory
