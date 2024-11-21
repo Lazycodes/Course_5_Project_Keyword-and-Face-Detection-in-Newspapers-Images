@@ -28,8 +28,13 @@ Before running the project, ensure you have the following installed:
    - Py-tesseract
    - NumPy
 
+Clone the repository
+-code: git clone https://github.com/yourusername/keyword-face-detection.git
+Navigate to the project directory
+-code: cd keyword-face-detection
+
 Install the required libraries using pip:
-code: pip install opencv-python pillow pytesseract numpy
+-code: pip install opencv-python pillow pytesseract numpy
 
 ## File Structure
 ### Scripts
