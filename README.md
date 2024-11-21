@@ -29,7 +29,7 @@ Before running the project, ensure you have the following installed:
    - NumPy
      
 Clone the repository  
--code: git clone https://github.com/Lazycodes/Lazycodes-Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images.git
+-code: git clone https://github.com/Lazycodes/Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images.git
 
 Navigate to the project directory  
 -code: cd keyword-face-detection
