@@ -34,7 +34,7 @@ Install the required libraries using pip:
 - code: pip install opencv-python pillow pytesseract numpy
      
 Clone the repository  
-- code: git clone https://github.com/Lazycodes/Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images.git
+- code: git clone https://github.com/AsuquoAA/Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images.git
 
 Navigate to the project directory  
 - code: cd keyword-face-detection
@@ -44,7 +44,7 @@ Navigate to the project directory
 
 ### Scripts
 
-<a href="https://github.com/Lazycodes/Lazycodes-Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images/blob/main/Code.ipynb">Code.ipynb</a>: Contains the Python code for processing images, detecting keywords, and creating contact sheets.
+<a href="https://github.com/AsuquoAA/Course_5_Project_Keyword_and_Face_Detection_in_Newspapers_Images/blob/main/Code.ipynb">Code.ipynb</a>: Contains the Python code for processing images, detecting keywords, and creating contact sheets.
 
 ### Data Files
 
@@ -78,10 +78,10 @@ Navigate to the project directory
 When searching for the keyword `Mark`, the program detects relevant pages and displays a contact sheet of faces found within those pages. Here's an example of what the output looks like:
 
 **Example output 1**
-![Example Output](https://github.com/Lazycodes/Lazycodes-Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images/blob/main/Screenshot%202024-11-20%20at%2018.48.11.png)
+![Example Output](https://github.com/AsuquoAA/Course_5_Project_Keyword_and_Face_Detection_in_Newspapers_Images/blob/main/Screenshot%202024-11-20%20at%2018.48.11.png)
 
 **Example output 2**
-![Example Output](https://github.com/Lazycodes/Lazycodes-Course_5_Project_Keyword-and-Face-Detection-in-Newspapers-Images/blob/main/Screenshot%202024-11-20%20at%2018.48.33.png)
+![Example Output](https://github.com/AsuquoAA/Course_5_Project_Keyword_and_Face_Detection_in_Newspapers_Images/blob/main/Screenshot%202024-11-20%20at%2018.48.33.png)
 
 > Note: The actual contact sheet will vary depending on the images in your `images.zip` file and the detected faces.
 
